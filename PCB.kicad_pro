@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -536,7 +536,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.0,
+        "track_width": 1.86,
         "tuning_profile": "",
         "via_diameter": 2.0,
         "via_drill": 1.5
@@ -553,10 +553,28 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -575,24 +593,6 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "5VOUT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.1,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -665,7 +665,7 @@
         "pattern": "MOTORA2"
       },
       {
-        "netclass": "5VOUT",
+        "netclass": "5V",
         "pattern": "VCC_5V"
       },
       {
@@ -701,7 +701,7 @@
         "pattern": "MOTORC4"
       },
       {
-        "netclass": "5VOUT",
+        "netclass": "5V",
         "pattern": "VCC_5Vout"
       },
       {
@@ -739,6 +739,54 @@
       {
         "netclass": "12V",
         "pattern": "VCC_12V"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "VCC_5V_GLOBAL"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "VCC_5V_USB"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "VCC_5V_BUCK"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "VCC_12V_IN"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "M3-"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "M3+"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "M4+"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "M4-"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "M1+"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "M1-"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "M2+"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "M2-"
       }
     ]
   },
@@ -954,7 +1002,7 @@
         "uuid": "ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
       }
     ],
-    "used_designators": "#PWR2,#PWR10-11,#PWR14-15,#PWR17,#PWR21,#PWR39-42,#PWR46-49,C16,C18,UART2,J10-11,J16,J21-30,MPU1,H1-4,JP5-8,U9,U11,VL2",
+    "used_designators": "R14-15,J23,J26-27,#PWR52-54,C13",
     "variants": []
   },
   "sheets": [
