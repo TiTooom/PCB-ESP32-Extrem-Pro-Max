@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.625,
-          "width": 0.25
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -580,6 +580,21 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DC MOTOR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.75,
+        "tuning_profile": "",
+        "via_diameter": 0.1,
+        "via_drill": 0.5
+      },
+      {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
@@ -623,7 +638,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "MOTOR",
+        "name": "NEMA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -641,11 +656,11 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "MOTOR",
+        "netclass": "NEMA",
         "pattern": "MOTORA1"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "NEMA",
         "pattern": "MOTORA2"
       },
       {
@@ -653,11 +668,11 @@
         "pattern": "VCC_5V"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "NEMA",
         "pattern": "MOTORA3"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "NEMA",
         "pattern": "MOTORA4"
       },
       {
@@ -673,15 +688,15 @@
         "pattern": "3V3"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "NEMA",
         "pattern": "MOTORC1"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "NEMA",
         "pattern": "MOTORC3"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "NEMA",
         "pattern": "MOTORC4"
       },
       {
@@ -713,7 +728,7 @@
         "pattern": "RX0-"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "NEMA",
         "pattern": "MOTORC2"
       },
       {
@@ -741,35 +756,35 @@
         "pattern": "VCC_12V_IN"
       },
       {
-        "netclass": "MOTOR",
-        "pattern": "M3-"
+        "netclass": "NEMA",
+        "pattern": "MOTORB1"
       },
       {
-        "netclass": "MOTOR",
-        "pattern": "M3+"
+        "netclass": "NEMA",
+        "pattern": "MOTORB2"
       },
       {
-        "netclass": "MOTOR",
-        "pattern": "M4+"
+        "netclass": "NEMA",
+        "pattern": "MOTORB3"
       },
       {
-        "netclass": "MOTOR",
-        "pattern": "M4-"
+        "netclass": "NEMA",
+        "pattern": "MOTORB4"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "DC MOTOR",
         "pattern": "M1+"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "DC MOTOR",
         "pattern": "M1-"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "DC MOTOR",
         "pattern": "M2+"
       },
       {
-        "netclass": "MOTOR",
+        "netclass": "DC MOTOR",
         "pattern": "M2-"
       }
     ]
@@ -986,7 +1001,7 @@
         "uuid": "ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
       }
     ],
-    "used_designators": "Q2,J12,R13,R16,AO4407A3-4,#PWR55",
+    "used_designators": "#PWR18,#PWR27,UART2,C11",
     "variants": []
   },
   "sheets": [
