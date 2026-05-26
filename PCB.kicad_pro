@@ -1001,7 +1001,7 @@
         "uuid": "ea97f20c-9bc4-49f4-bc03-d8d68656df8b"
       }
     ],
-    "used_designators": "#PWR18,#PWR27,UART2,C11",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
