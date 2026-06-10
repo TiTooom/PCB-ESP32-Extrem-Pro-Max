@@ -12068,30 +12068,6 @@
 			)
 		)
 	)
-	(global_label "UART0_RX-"
-		(shape input)
-		(at 29.21 152.4 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "29bf3237-6475-47d0-810b-b43087886d85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 166.2709 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SCL2"
 		(shape input)
 		(at 309.88 226.06 180)
@@ -13268,30 +13244,6 @@
 			)
 		)
 	)
-	(global_label "UART3_RX+"
-		(shape input)
-		(at 351.79 226.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "677404f5-b0a2-4867-b036-8323f70e01ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 365.6609 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "XSHUT1"
 		(shape input)
 		(at 469.9 69.85 0)
@@ -13797,6 +13749,30 @@
 			)
 		)
 	)
+	(global_label "UART0_TX+"
+		(shape input)
+		(at 29.21 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e128b8c-049c-492b-a92d-8ae17c8cf93f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.21 165.9685 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "XSHUT0"
 		(shape input)
 		(at 135.89 121.92 270)
@@ -14133,30 +14109,6 @@
 			)
 		)
 	)
-	(global_label "UART3_TX-"
-		(shape input)
-		(at 309.88 243.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9457f10f-7a9b-4817-af1f-ebf9955178e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.3115 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MS1"
 		(shape input)
 		(at 62.23 237.49 180)
@@ -14301,30 +14253,6 @@
 			)
 		)
 	)
-	(global_label "UART0_TX+"
-		(shape input)
-		(at 31.75 152.4 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d4931fe-fa78-4e04-aef7-41fe0e27eec6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.75 165.9685 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SCL1"
 		(shape input)
 		(at 439.42 127 180)
@@ -14362,6 +14290,30 @@
 		(uuid "a0190310-4d9f-4598-9567-b3e877887be1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 183.6444 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "UART3_RX-"
+		(shape input)
+		(at 309.88 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1fe8ece-8e3f-4831-8138-02dea5a504a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.0091 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14794,6 +14746,30 @@
 		(uuid "b09ddf9e-14ff-4a49-9363-9a19f65f5247")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 73.2585 327.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "UART3_TX+"
+		(shape input)
+		(at 351.79 226.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0aadbdb-c009-4544-ab53-c6927ed1cde6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.3585 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16026,6 +16002,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "UART0_RX-"
+		(shape input)
+		(at 31.75 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e37e2699-0f99-41f6-8fc3-cdb47acf7078")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.75 166.2709 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
